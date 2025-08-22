@@ -1,71 +1,52 @@
 export const myProjects = [
   {
     id: 1,
-    title: "E-commerce Platform",
+    title: "Food E-commerce ",
     description:
-      "Facilitates purchases from international websites like Amazon and eBay, allowing customers to shop from these sites and have products delivered domestically.",
+      "Đây là 1 trang thương mại điện tử để order đồ ăn (tựa như GrabFood và ShopeeFood).",
     subDescription: [
-      "Built a scalable application with ASP.NET Core MVC, integrating global platforms like Amazon for domestic delivery.",
-      "Implemented secure authentication and database management using ASP.NET Core Identity and Entity Framework Core.",
-      "Designed a responsive frontend with Tailwind CSS, enhancing user experience.",
-      "Added payment systems, localization, and product filtering for functionality improvements.",
+      "Xây dựng một ứng dụng ReactJs và Database là dùng MongoDB, tích hợp để dễ thao tác hơn.",
+      "Thiết kế giao diện người dùng đáp ứng với Tailwind CSS, nâng cao trải nghiệm người dùng.",
+      "Thêm hệ thống thanh toán, định vị và lọc sản phẩm để cải thiện chức năng.",
     ],
-    href: "",
+    href: "https://food-dev-uogz.vercel.app",
     logo: "",
-    image: "/assets/projects/accessories.jpg",
+    image: "/assets/projects/food-dev.png",
     tags: [
-      {
-        id: 1,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 2,
-        name: ".Net",
-        path: "/assets/logos/dotnet.svg",
-      },
-      {
-        id: 3,
-        name: "Ef Core",
-        path: "/assets/logos/efcore.png",
-      },
+      
       {
         id: 4,
-        name: "TailwindCSS",
+        name: "ReactJs TailwindCSS MongoDB",
         path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
   {
     id: 2,
-    title: "Authentication & Authorization System",
+    title: "Hệ thống kinh doanh đồ uống",
     description:
-      "A secure authentication and authorization system using Auth0 for seamless user management.",
+      "Một hệ thống bán đồ uống với các chức năng đặt bàn, hẹn lịch,.....",
     subDescription: [
-      "Integrated Auth0 for authentication, supporting OAuth, JWT, and multi-factor authentication.",
-      "Implemented role-based access control (RBAC) for fine-grained user permissions.",
-      "Developed a React-based frontend with Tailwind CSS for a sleek user experience.",
-      "Connected to a secure SQLite database for user data storage.",
+      "Tích hợp Auth0 để xác thực, hỗ trợ OAuth, JWT và xác thực đa yếu tố.",
+      "Triển khai kiểm soát truy cập dựa trên vai trò (RBAC) cho quyền người dùng chi tiết.",
+      "Phát triển giao diện người dùng dựa trên React với Tailwind CSS cho trải nghiệm người dùng mượt mà.",
+      "Kết nối với cơ sở dữ liệu MongoDB an toàn để lưu trữ dữ liệu người dùng.",
     ],
-    href: "",
+    href: "https://fe-prime-management.vercel.app/",
     logo: "",
-    image: "/assets/projects/auth-system.jpg",
+    image: "/assets/projects/fe-prime.png",
     tags: [
       {
         id: 1,
-        name: "Auth0",
-        path: "/assets/logos/auth0.svg",
+        name: "NodeJs",
+       
       },
       {
         id: 2,
         name: "React",
         path: "/assets/logos/react.svg",
       },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
+      
       {
         id: 4,
         name: "TailwindCSS",
@@ -75,92 +56,45 @@ export const myProjects = [
   },
   {
     id: 3,
-    title: "Blazor Web App",
+    title: "Web tuyển nhân sự cho FPT Telecom",
     description:
-      "A modern, interactive web application built with Blazor WebAssembly and .NET Core.",
+      "Một trang web tuyển dụng nhân sự cho FPT Telecom được viết thuần bằng html.",
     subDescription: [
-      "Developed a fully interactive Single Page Application (SPA) using Blazor WebAssembly.",
-      "Implemented API interactions using .NET Core for a robust backend.",
-      "Designed responsive UI components with Tailwind CSS for an enhanced UX.",
-      "Integrated SQLite for efficient client-side database storage.",
+      "Sử dụng HTML, CSS và JavaScript để xây dựng giao diện người dùng.",
+      "Tích hợp các API để xử lý dữ liệu và tương tác với người dùng.",
+      "Thiết kế giao diện đáp ứng cho cả máy tính và thiết bị di động.",
     ],
-    href: "",
+    href: "https://fpt-ivory.vercel.app/",
     logo: "",
-    image: "/assets/projects/blazor-app.jpg",
+    image: "/assets/projects/FPT.png",
     tags: [
       {
         id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
+        name: "HTML",
+        path: "/assets/logos/html5.svg",
       },
       {
         id: 2,
-        name: ".NET Core",
-        path: "/assets/logos/dotnetcore.svg",
-      },
-      {
-        id: 3,
-        name: "SQLite",
-        path: "/assets/logos/sqlite.svg",
-      },
-      {
-        id: 4,
         name: "TailwindCSS",
         path: "/assets/logos/tailwindcss.svg",
       },
-    ],
-  },
-  {
-    id: 4,
-    title: "C++ Game Engine",
-    description:
-      "A lightweight C++ game engine designed for 2D and 3D game development.",
-    subDescription: [
-      "Built a powerful rendering engine using OpenGL and C++.",
-      "Developed a physics engine with collision detection and particle effects.",
-      "Implemented a scripting system for easy game customization.",
-      "Optimized performance with multi-threading and efficient memory management.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/game-engine.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "C++",
-        path: "/assets/logos/cplusplus.svg",
-      },
-      {
-        id: 2,
-        name: "C#",
-        path: "/assets/logos/csharp.svg",
-      },
-      {
-        id: 3,
-        name: "Git",
-        path: "/assets/logos/git.svg",
-      },
-      {
-        id: 4,
-        name: "Microsoft",
-        path: "/assets/logos/microsoft.svg",
-      },
+    
     ],
   },
   {
     id: 5,
-    title: "WordPress Custom Theme",
+    title: "Trang kinh doanh đồ ăn bằng WordPress",
     description:
-      "A fully customizable WordPress theme optimized for performance and SEO.",
+      "Một trang web thương mại điện tử cho phép người dùng đặt hàng thực phẩm trực tuyến.",
     subDescription: [
-      "Developed a responsive WordPress theme using HTML5, CSS3, and JavaScript.",
-      "Integrated Tailwind CSS for modern styling and UI enhancements.",
-      "Optimized SEO and page speed using Vite.js for fast builds.",
-      "Implemented custom widgets and plugin compatibility for extended functionality.",
+      "Phát triển một theme WordPress đáp ứng bằng HTML5, CSS3 và JavaScript.",
+      "Tích hợp Tailwind CSS để cải thiện kiểu dáng và giao diện người dùng.",
+      "Tối ưu hóa SEO và tốc độ trang bằng cách sử dụng Vite.js cho các bản dựng nhanh.",
+      "Triển khai các widget tùy chỉnh và khả năng tương thích plugin để mở rộng chức năng.",
     ],
-    href: "",
+    href: "https://inkybio.com/",
     logo: "",
-    image: "/assets/projects/wordpress-theme.jpg",
+    image: "/assets/projects/pizza.png",
     tags: [
       {
         id: 1,
@@ -181,43 +115,6 @@ export const myProjects = [
         id: 4,
         name: "Vite.js",
         path: "/assets/logos/vitejs.svg",
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Online Learning Platform",
-    description:
-      "A web application that allows users to enroll in courses, watch video lectures, and take quizzes.",
-    subDescription: [
-      "Built using Blazor WebAssembly for a seamless SPA experience.",
-      "Implemented video streaming with Azure Media Services.",
-      "Added a quiz system with dynamic question generation and real-time grading.",
-      "Integrated Stripe API for secure payment processing.",
-    ],
-    href: "",
-    logo: "",
-    image: "/assets/projects/elearning.jpg",
-    tags: [
-      {
-        id: 1,
-        name: "Blazor",
-        path: "/assets/logos/blazor.svg",
-      },
-      {
-        id: 2,
-        name: "Azure",
-        path: "/assets/logos/azure.svg",
-      },
-      {
-        id: 3,
-        name: "Stripe",
-        path: "/assets/logos/stripe.svg",
-      },
-      {
-        id: 4,
-        name: "TailwindCSS",
-        path: "/assets/logos/tailwindcss.svg",
       },
     ],
   },
@@ -243,36 +140,24 @@ export const mySocials = [
 
 export const experiences = [
   {
-    title: "Software Developer",
-    job: "Security & Defense Projects",
-    date: "2021-2023",
+    title: "Sinh viên",
+    job: "FPT Polytechnic",
+    date: "2023-2025",
     contents: [
-      "Enhanced application security and developed new features, adhering to standards set by the Passive Defense Organization and National Cyberspace Center.",
-      "Designed and implemented intuitive map interfaces using MapsUI, enhancing user experience and enabling seamless interactive map integration.",
-      "Developed applications for industrial automation, leveraging C++ and the Fatek API for PLC communication.",
-      "Enhanced responsiveness and usability of applications using Windows Forms and WPF frameworks.",
-      "Executed XML to SVG conversions using X-DOM, ensuring dynamic and efficient data visualization.",
+      "Theo học tại FPT Polytechnic, chuyên ngành Công nghệ thông tin.",
+      "Tập trung vào thiết kế và phát triển các trang web hiện đại, thân thiện với người dùng.",
+      "Có khả năng đảm nhận vai trò kiểm thử phần mềm (tester) để đảm bảo chất lượng sản phẩm.",
+      "Luôn chủ động học hỏi, cập nhật các công nghệ mới và nâng cao kỹ năng chuyên môn.",
     ],
   },
   {
-    title: "Back-End Developer",
-    job: "Car Manufacture",
-    date: "2023-2024",
+    title: "Phát triển website ",
+    job: "cho FPT Telecom",
+    date: "T3-T8 2025",
     contents: [
-      "Engineered systems for large-scale data ingestion and analysis, ensuring efficient data processing and storage.",
-      "Developed back-end systems enabling vehicle-to-cloud communication for telemetry, diagnostics, and remote control:",
-      "✅ Implemented secure APIs, following ISO 26262 automotive safety standards.",
-      "✅ Ensured data privacy for customers and partners through industry-compliant protocols.",
-      "✅ Delivered remote features like over-the-air updates, real-time tracking, and remote start capabilities.",
-    ],
-  },
-  {
-    title: "Freelance Developer",
-    job: "Self-Employed",
-    date: "2025-Present",
-    contents: [
-      "Created a personal portfolio using Three.js, React, Vite, and WebAPI to showcase technical expertise.",
-      "Continuously enhancing technical skills and expanding expertise in modern web development and back-end technologies.",
+      "Thực tập tại FPT Telecom, tham gia phát triển trang web tuyển dụng nhân sự.",
+      "Đã tạo một trang web tuyển dụng nhân viên cho FPT Telecom, Kiêm vai trò kiểm thử.",
+      "Luôn chủ động học hỏi, cập nhật các công nghệ mới và nâng cao kỹ năng chuyên môn.",
     ],
   },
 ];

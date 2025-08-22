@@ -34,9 +34,9 @@ const Contact = () => {
         "template_17us8im",
         {
           from_name: formData.name,
-          to_name: "Ali",
+          to_name: "Hau",
           from_email: formData.email,
-          to_email: "AliSanatiDev@gmail.com",
+          to_email: "phuchau0608lt@gmail.com",
           message: formData.message,
         },
         "pn-Bw_mS1_QQdofuV"
@@ -62,23 +62,22 @@ const Contact = () => {
       {showAlert && <Alert type={alertType} text={alertMessage} />}
       <div className="flex flex-col items-center justify-center max-w-md p-5 mx-auto border border-white/10 rounded-2xl bg-primary">
         <div className="flex flex-col items-start w-full gap-5 mb-10">
-          <h2 className="text-heading">Let's Talk</h2>
+          <h2 className="text-heading">Hãy Trò Chuyện</h2>
           <p className="font-normal text-neutral-400">
-            Whether you're loking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help
+            Dù bạn muốn xây dựng một trang web mới, cải thiện nền tảng hiện tại, hoặc thực hiện một dự án độc đáo, tôi luôn sẵn sàng hỗ trợ bạn.
           </p>
         </div>
         <form className="w-full" onSubmit={handleSubmit}>
           <div className="mb-5">
             <label htmlFor="name" className="feild-label">
-              Full Name
+              Họ và tên
             </label>
             <input
               id="name"
               name="name"
               type="text"
               className="field-input field-input-focus"
-              placeholder="John Doe"
+              placeholder="Họ và tên của bạn"
               autoComplete="name"
               value={formData.name}
               onChange={handleChange}
@@ -94,7 +93,7 @@ const Contact = () => {
               name="email"
               type="email"
               className="field-input field-input-focus"
-              placeholder="JohnDoe@email.com"
+              placeholder="Email của bạn"
               autoComplete="email"
               value={formData.email}
               onChange={handleChange}
@@ -103,7 +102,7 @@ const Contact = () => {
           </div>
           <div className="mb-5">
             <label htmlFor="message" className="feild-label">
-              Message
+              Tin nhắn
             </label>
             <textarea
               id="message"
@@ -111,7 +110,7 @@ const Contact = () => {
               type="text"
               rows="4"
               className="field-input field-input-focus"
-              placeholder="Share your thoughts..."
+              placeholder="Chia sẻ ý kiến của bạn..."
               autoComplete="message"
               value={formData.message}
               onChange={handleChange}
@@ -122,7 +121,7 @@ const Contact = () => {
             type="submit"
             className="w-full px-1 py-3 text-lg text-center rounded-md cursor-pointer bg-radial from-lavender to-royal hover-animation"
           >
-            {!isLoading ? "Send" : "Sending..."}
+            {!isLoading ? "Gửi" : "Đang gửi..."}
           </button>
         </form>
       </div>
